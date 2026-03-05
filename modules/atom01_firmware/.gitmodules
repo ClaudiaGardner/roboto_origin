@@ -1,0 +1,9 @@
+[submodule "roboto_usb2can"]
+	path = roboto_usb2can
+	url = https://github.com/wentywenty/roboto_usb2can
+[submodule "orangepi-build"]
+	path = orangepi-build
+	url = https://github.com/wentywenty/orangepi-build
+[submodule "x5-rdk-gen"]
+	path = x5-rdk-gen
+	url = https://github.com/wentywenty/x5-rdk-gen.git
