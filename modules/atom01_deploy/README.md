@@ -211,11 +211,12 @@ Once everything is ready, run the script to start the software:
 
 ### Gamepad Control
 
-- **A Button**: Initialize/Deinitialize motors
+- **A Button**: Initialize / Deinitialize motors
 - **X Button**: Reset motors
-- **B Button**: Start/Pause inference
+- **B Button**: Start / Pause inference
 - **Y Button**: Switch between Gamepad Control / cmd_vel Control
-- **LB Button**: Switch policy mode (available in beyondmimic / interrupt modes). Pressing it will pause inference, and you need to manually press the B button to start inference.
+- **LB Button**: Switch policy mode (available in beyondmimic / interrupt modes)
+- **RB Button**: Switch motion sequence (available in beyondmimic mode)
 
 ### Service Interface
 
@@ -267,6 +268,18 @@ You can control the robot by calling ROS2 services via command line:
 
   ```bash
   ros2 service call /refresh_joints std_srvs/srv/Trigger
+  ```
+
+- **Read Joints**:
+
+  ```bash
+  ros2 service call /read_joints std_srvs/srv/Trigger
+  ```
+
+- **Read IMU**:
+
+  ```bash
+  ros2 service call /read_imu std_srvs/srv/Trigger
   ```
 
 ## Python SDK

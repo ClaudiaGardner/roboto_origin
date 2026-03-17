@@ -211,11 +211,12 @@ motor_zero_offset:
 
 ### 手柄控制
 
-- **A 键**: 初始化/去初始化电机
+- **A 键**: 初始化 / 去初始化电机
 - **X 键**: 重置电机
-- **B 键**: 开始/暂停推理
-- **Y 键**: 切换 手柄控制 / cmd_vel指令控制
-- **LB 键** 切换策略模式（在 beyondmimic / interrupt 模式下可用），按下后会暂停推理，需要手动按B键开始推理
+- **B 键**: 开始 / 暂停推理
+- **Y 键**: 切换手柄控制 / cmd_vel指令控制
+- **LB 键**: 切换策略模式（在 beyondmimic / interrupt 模式下可用）
+- **RB 键**: 切换运动序列（在 beyondmimic 模式下可用）
 
 ### 服务接口
 
@@ -267,6 +268,18 @@ motor_zero_offset:
 
   ```bash
   ros2 service call /refresh_joints std_srvs/srv/Trigger
+  ```
+
+- **读取关节状态**:
+
+  ```bash
+  ros2 service call /read_joints std_srvs/srv/Trigger
+  ```
+
+- **读取IMU状态**:
+
+  ```bash
+  ros2 service call /read_imu std_srvs/srv/Trigger
   ```
 
 ## Python SDK
