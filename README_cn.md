@@ -55,6 +55,7 @@
 | **[atom01_deploy](https://github.com/Roboparty/atom01_deploy)**           | ROS2驱动开发、中间件模块、部署配置、IMU/电机集成   |
 | **[atom01_train](https://github.com/Roboparty/atom01_train)**             | 强化学习算法、训练环境、仿真配置、Sim2Sim迁移      |
 | **[atom01_description](https://github.com/Roboparty/atom01_description)** | URDF运动学/动力学描述、视觉/碰撞网格、关节参数优化 |
+| **[atom01_firmware](https://github.com/Roboparty/atom01_firmware)**       | 固件开发、嵌入式软件、USB2CAN、OrangePi构建系统、系统守护进程管理 |
 
 **详细贡献指南请点击这里：** [CONTRIBUTING_CN.md](CONTRIBUTING_CN.md)
 
@@ -83,6 +84,7 @@
 | **atom01_deploy**      | ROS2部署框架，提供模块化架构的中间件，用于机器人部署和控制，支持IMU、电机驱动、推理等功能         | https://github.com/Roboparty/atom01_deploy      |
 | **atom01_train**       | 基于IsaacLab的直接训练工作流，提供高透明度和低重构难度的强化学习训练环境，支持Sim2Sim迁移到MuJoCo | https://github.com/Roboparty/atom01_train       |
 | **atom01_description** | Atom01机器人的URDF模型文件，包含机器人运动学和动力学描述，用于仿真和可视化                        | https://github.com/Roboparty/atom01_description |
+| **atom01_firmware**    | Atom01机器人的固件模块，提供嵌入式软件支持，包括USB2CAN、OrangePi构建系统和系统守护进程管理         | https://github.com/Roboparty/atom01_firmware    |
 
 ---
 
